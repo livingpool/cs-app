@@ -55,7 +55,7 @@ float_bits float_i2f(int i) {
     sign = 0;
     if (i < 0) {
         sign = 1;
-        i = -1;
+        i = -i;
     }
 
     bits_len = bits_length(i);
